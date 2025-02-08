@@ -1,0 +1,2 @@
+# Prediction_de_la_Production-electrique_des_Micro_Turbines_a_gaz
+La production électrique des micro-turbines à gaz est un processus complexe influencé par  plusieurs variables comme le temps et la tension. Ce projet aborde un problème de  régression où l'objectif est de prédire la production électrique future à partir de données  historiques, une tâche cruciale pour optimiser l'efficacité énergétique.
