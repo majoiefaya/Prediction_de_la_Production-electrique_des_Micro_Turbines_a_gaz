@@ -24,12 +24,12 @@ def load_and_combine_datasets():
     """
     try:
         # Define paths to training datasets using os.path.join for cross-platform compatibility
-        dataset_ex_1 = pd.read_csv(os.path.join(os.path.dirname(__file__), '../../datasets/train/ex_1.csv'))
-        dataset_ex_2 = pd.read_csv(os.path.join(os.path.dirname(__file__), '../../datasets/train/ex_20.csv'))
-        dataset_ex_3 = pd.read_csv(os.path.join(os.path.dirname(__file__), '../../datasets/train/ex_21.csv'))
-        dataset_ex_4 = pd.read_csv(os.path.join(os.path.dirname(__file__), '../../datasets/train/ex_23.csv'))
-        dataset_ex_5 = pd.read_csv(os.path.join(os.path.dirname(__file__), '../../datasets/train/ex_24.csv'))
-        dataset_ex_6 = pd.read_csv(os.path.join(os.path.dirname(__file__), '../../datasets/train/ex_9.csv'))
+        dataset_ex_1 = pd.read_csv(os.path.join(os.path.dirname(__file__), '../datasets/train/ex_1.csv'))
+        dataset_ex_2 = pd.read_csv(os.path.join(os.path.dirname(__file__), '../datasets/train/ex_20.csv'))
+        dataset_ex_3 = pd.read_csv(os.path.join(os.path.dirname(__file__), '../datasets/train/ex_21.csv'))
+        dataset_ex_4 = pd.read_csv(os.path.join(os.path.dirname(__file__), '../datasets/train/ex_23.csv'))
+        dataset_ex_5 = pd.read_csv(os.path.join(os.path.dirname(__file__), '../datasets/train/ex_24.csv'))
+        dataset_ex_6 = pd.read_csv(os.path.join(os.path.dirname(__file__), '../datasets/train/ex_9.csv'))
         
         # Combine training datasets into a list
         dataset_list = [dataset_ex_1, dataset_ex_2, dataset_ex_3, dataset_ex_4, dataset_ex_5, dataset_ex_6]
@@ -39,8 +39,8 @@ def load_and_combine_datasets():
         combined_dataset.reset_index(drop=True, inplace=True)
         
         # Define paths to test datasets
-        dataset_test_1 = pd.read_csv(os.path.join(os.path.dirname(__file__), '../../datasets/test/ex_22.csv'))
-        dataset_test_2 = pd.read_csv(os.path.join(os.path.dirname(__file__), '../../datasets/test/ex_4.csv'))
+        dataset_test_1 = pd.read_csv(os.path.join(os.path.dirname(__file__), '../datasets/test/ex_22.csv'))
+        dataset_test_2 = pd.read_csv(os.path.join(os.path.dirname(__file__), '../datasets/test/ex_4.csv'))
         
         # Combine test datasets into a list
         dataset_test_list = [dataset_test_1, dataset_test_2]
