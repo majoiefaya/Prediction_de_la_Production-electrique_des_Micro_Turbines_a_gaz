@@ -2161,7 +2161,6 @@ compare_feature_importances([random_forest_model, bagging_model.estimators_[0], 
                             ['RandomForest', 'Bagging (RandomForest)', 'Stacking (Linear Regression)'],
                             X_train.columns)
 
-!pip install shap
 
 #4.5.6
 import shap
