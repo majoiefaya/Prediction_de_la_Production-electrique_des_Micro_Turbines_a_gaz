@@ -1095,8 +1095,6 @@ print(f"RMSE: {rmse:.4f}")
 print(f"MAE: {mae:.4f}")
 print(f"R²: {r2:.4f}")
 
-!pip install catboost
-
 from catboost import CatBoostRegressor  # Import de CatBoost
 
 
@@ -1668,8 +1666,6 @@ random_search.fit(X_train_scaled, y_train)
 print("Meilleurs hyperparamètres (Random Search):", random_search.best_params_)
 print("Meilleur score (Random Search):", np.sqrt(-random_search.best_score_))
 
-!pip install scikit-optimize
-
 from skopt import BayesSearchCV
 # Normaliser les caractéristiques
 scaler = StandardScaler()
@@ -1797,7 +1793,6 @@ print(f"  MAE: {mae:.4f}")
 print(f"  R²: {r2:.4f}")
 print("\n" + "="*50 + "\n")
 
-!pip install catboost;
 
 #4.5.9 version test
 from catboost import CatBoostRegressor, Pool
