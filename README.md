@@ -13,7 +13,7 @@
   <img src="https://img.shields.io/badge/Random_Forest-6E7B8B?style=flat-square" alt="Random Forest"/>
   <img src="https://img.shields.io/badge/CatBoost-6C43E0?style=flat-square&logo=catboost&logoColor=white" alt="CatBoost"/>
   <!-- Statut du projet -->
-  <img src="https://img.shields.io/badge/Status-En%20cours-yellow?style=flat-square" alt="Statut"/>
+  <img src="https://img.shields.io/badge/Status-Terminé-brightgreen?style=flat-square" alt="Statut"/>
   <!-- Licence -->
   <img src="https://img.shields.io/badge/License-MIT-blue?style=flat-square" alt="License"/>
 </p>
